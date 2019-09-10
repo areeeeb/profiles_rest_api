@@ -26,10 +26,11 @@ SECRET_KEY = '8g#ccvsxh$*eg6%j3s$)=36khs4u7rc$!da=8)dm(t8iour7d='
 # DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'ec2-18-139-110-22.ap-southeast-1.compute.amazonaws.com',
-    '127.0.0.1'
-]
+# ALLOWED_HOSTS = [
+#     'ec2-18-139-110-22.ap-southeast-1.compute.amazonaws.com',
+#     '127.0.0.1'
+# ]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
